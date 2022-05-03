@@ -11,8 +11,19 @@ let numero1 = parseFloat(prompt("Ingrese un número"));
     calculo.push(numero1);
     console.log(calculo);
 let numero2 = parseFloat(prompt("Ingrese un número"));
-    calculo.push(numero1);
+    calculo.push(numero2);
     console.log(calculo);
 let operacion = prompt("¿Qué operación quieres realizar? +,-,*,/");
     calculo.push(operacion);
     console.log(calculo);
+if (operacion === "+") {
+    alert("Tu resultado es " + sumar(numero1,numero2));
+} else if (operacion === "-") {
+    alert("Tu resultado es " + restar(numero1,numero2));
+} else if  (operacion === "*") {
+    alert("Tu resultado es " + multiplicar(numero1,numero2));
+} else if (operacion === "/") {
+    alert("Tu resultado es " + dividir(numero1,numero2));
+} else {
+    alert("Operacion no valida");
+}
