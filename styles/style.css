@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,800&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #5965f2;
+}
+#calculadora__titulo{
+    font-family: 'Open Sans', sans-serif;
+    color: blanchedalmond;    
+}
+.calculadora__pantalla{
+    background: rgba(52, 73, 94, 0.5);
+    color: #ecf0f1;
+    outline: none;
+    text-align: right;
+    border: none;
+    font-size: 3rem;
+    width: 78vw;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}

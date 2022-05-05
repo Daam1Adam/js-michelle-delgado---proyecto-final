@@ -1,4 +1,5 @@
 //Proyecto final - Calculadora
+console.log(document);
 
 const sumar = function (n1, n2) {return n1 + n2};
 const restar = function (n1, n2) {return n1 - n2};
