@@ -13,15 +13,5 @@ body{
     color: blanchedalmond;    
 }
 .calculadora__pantalla{
-    background: rgba(52, 73, 94, 0.5);
-    color: #ecf0f1;
-    outline: none;
-    text-align: right;
-    border: none;
-    font-size: 3rem;
-    width: 78vw;
-    margin-bottom: 1rem;
-    border-radius: 1rem;
-    padding: 1rem;
     cursor: pointer;
 }

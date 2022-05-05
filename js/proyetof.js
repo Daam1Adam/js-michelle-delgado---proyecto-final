@@ -1,7 +1,14 @@
 //Proyecto final - Calculadora
-console.log(document);
 
-const sumar = function (n1, n2) {return n1 + n2};
+document.getElementById("pantalla");
+let screen = document.getElementById("pantalla").value;
+botones = document.querySelectorAll("botones");
+    botones.onclick = ("(") => {screen.value("boton")};
+
+
+
+
+/*const sumar = function (n1, n2) {return n1 + n2};
 const restar = function (n1, n2) {return n1 - n2};
 const multiplicar = function (n1, n2) {return n1 * n2};
 const dividir = function (n1, n2) {return n1 / n2};
@@ -30,4 +37,4 @@ if (operacion === "+") {
     alert("Tu resultado es " + porcentaje(numero1,numero2));
 } else {
     alert("Operacion no valida");
-}
+}*/
