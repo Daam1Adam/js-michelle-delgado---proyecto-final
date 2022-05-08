@@ -1,14 +1,6 @@
 //Proyecto final - Calculadora
 
-document.getElementById("pantalla");
-let screen = document.getElementById("pantalla").value;
-botones = document.querySelectorAll("botones");
-    botones.onclick = ("(") => {screen.value("boton")};
-
-
-
-
-/*const sumar = function (n1, n2) {return n1 + n2};
+const sumar = function (n1, n2) {return n1 + n2};
 const restar = function (n1, n2) {return n1 - n2};
 const multiplicar = function (n1, n2) {return n1 * n2};
 const dividir = function (n1, n2) {return n1 / n2};
@@ -34,7 +26,7 @@ if (operacion === "+") {
 } else if (operacion === "/") {
     alert("Tu resultado es " + dividir(numero1,numero2));
 } else if (operacion === "%") {
-    alert("Tu resultado es " + porcentaje(numero1,numero2));
+    alert("El " + numero1 + "% de " + numero2 + " es " + porcentaje(numero1,numero2));
 } else {
     alert("Operacion no valida");
-}*/
+}

@@ -8,10 +8,40 @@ body{
     justify-content: center;
     background-color: #5965f2;
 }
-#calculadora__titulo{
+
+h1 {
     font-family: 'Open Sans', sans-serif;
-    color: blanchedalmond;    
+    color: blanchedalmond;  
+    align-items: center;
+    font-size: 2.5rem;
+    margin-bottom: 15;  
 }
-.calculadora__pantalla{
+
+input {    
+    background-color: #484e91;
+    outline: none;
+    width: 28rem;
+    height: 4rem;
+    border: none;
+    border-radius: .5rem;
+    margin: 0.15rem;
+}
+
+button {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: #34396b;
+    border: none;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: 0.15rem;
+    width: 15vh;
+    height: 10vh;    
     cursor: pointer;
+}
+
+.especiales {
+    background-color:#34396b;
+    color: white;
 }
