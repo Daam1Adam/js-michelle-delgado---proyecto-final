@@ -1,10 +1,14 @@
 //Proyecto final - Calculadora
 
-const sumar = function (n1, n2) {return n1 + n2};
+//ENTREGA 1 03/05
+
+function sumar(n1, n2) { return n1 + n2; }
 const restar = function (n1, n2) {return n1 - n2};
 const multiplicar = function (n1, n2) {return n1 * n2};
 const dividir = function (n1, n2) {return n1 / n2};
 const porcentaje = function (n1,n2) {return n1 * n2 / 100};
+
+
 
 let calculo = [];
 
@@ -30,3 +34,19 @@ if (operacion === "+") {
 } else {
     alert("Operacion no valida");
 }
+
+/*
+const botonesNumeros = document.getElementsByClassName("numeros");
+console.log(botonesNumeros);
+const botonesOperaciones = document.getElementsByClassName("operaciones");
+const botonesEspeciales = document.getElementsByClassName("especiales");
+const resultado = document.getElementById("resultado");
+const borrar = document.getElementById("borrar");
+let pantalla = document.getElementById("pantalla");
+
+botonesNumeros.forEach(function(botones) {
+    boton.addEventListener('click', function(){
+        alert(boton.innerText);
+    })
+})
+*/
