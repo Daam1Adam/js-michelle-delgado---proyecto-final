@@ -1,7 +1,7 @@
 //Proyecto final - Calculadora
 
 //ENTREGA 1 03/05
-let continuar;
+/*let continuar;
 let calculos = [];
 const sumar = function (n1, n2) { return n1 + n2; }
 const restar = function (n1, n2) {return n1 - n2};
@@ -31,18 +31,15 @@ do {
     }
     continuar = confirm("¿Deseas hacer otra operación?")
 }while (continuar);
-console.log(calculos);
+console.log(calculos);*/
 
-/*const botonesNumeros = document.getElementsByClassName("numeros");
-console.log(botonesNumeros);
+const botonesNumeros = document.getElementsByClassName("numeros");
 const botonesOperaciones = document.getElementsByClassName("operaciones");
 const botonesEspeciales = document.getElementsByClassName("especiales");
 const resultado = document.getElementById("resultado");
 const borrar = document.getElementById("borrar");
 let pantalla = document.getElementById("pantalla");
 
-botonesNumeros.forEach(function(botones) {
-    boton.addEventListener('click', function(){
-        alert(boton.innerText);
-    })
-})*/
+resultado.addEventListener('click', function mostrarConsola() {
+    console.log(resultado)
+})
