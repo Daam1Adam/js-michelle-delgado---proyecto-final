@@ -43,3 +43,7 @@ let pantalla = document.getElementById("pantalla");
 resultado.addEventListener('click', function mostrarConsola() {
     console.log(resultado)
 })
+borrar.addEventListener('click', function mostrarConsola() {
+    console.log(borrar)
+})
+
